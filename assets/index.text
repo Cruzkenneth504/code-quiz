@@ -1,0 +1,100 @@
+
+1Choose the correct HTML element to define important text
+
+a <b>
+b <i>
+c <strong>
+d <important>
+
+Correct Answer C
+
+Choose the correct HTML element to define emphasized text
+
+a <em>
+b <i>
+c <italic>
+d <a>
+
+Correct Answer A
+
+Which character is used to indicate an end tag?
+
+a <
+b /
+c "
+d ^
+
+Correct Answer A
+
+How can you make a numbered list?
+
+a <li>
+b <td>
+c <ol>
+d <ul>
+
+Correct Answer C
+
+5Which is the correct CSS syntax?
+
+
+a {body:color,black}
+b body:color(black) 
+c body=color:black
+d body {color:black }
+
+Correct Answer
+
+Which property is used to change the background color?
+
+a bg 
+b background-color
+c color 
+d block color
+ 
+Correct Answer B
+
+Which CSS property is used to change the text color of an element?
+
+a letter color
+b text-color
+c font-color
+d color 
+
+Correct Answer D
+
+Inside which HTML element do we put the JavaScript?
+
+a <html>
+b <js>
+c <JavaScript>
+d <script>
+
+Correct Answer D
+
+How do you write "Hello World" in an alert box?
+
+a alert("Hello World")
+b alertWindow ("Hello World")
+c msgAlert("Hello World")
+d aletPop("Hello World")
+ 
+Correct Answer A
+
+How do you create a function in JavaScript?
+
+a funtion{}
+b funtion = ()
+c function myFuntion()
+d let fuction = myFuntion[]
+
+
+var timeleft = document.querySelector(".current-time");
+var quizConntainer = document.getElementById("quest-container");
+var nextBtn = document.getElementById("next-btn");
+var questionNum = document.getElementById("quest-num");
+var mainContainer = document.getElementById("main--container");
+var scoreContainer = document.querySelector(".score-container");
+var restart = document.getElementById("restart-btn");
+var gamerScore = document.getElementById("gamer-score")
+var startDisplay = document.querySelector(".start-display");
