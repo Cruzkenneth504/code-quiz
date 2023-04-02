@@ -28,8 +28,7 @@ height: 100%;
   cursor: pointer;
   border: none;
 }
-
-#start-btn,
+/*
 #restart-btn
 {
 color: white;
@@ -55,10 +54,12 @@ box-shadow:
 
 }
 
-
+/*
 #restart-btn{
   margin-top: 10px;
 }
+*/
+
 
 #main-container{
   background: rgb(0,0,0);
@@ -119,7 +120,7 @@ border: 1.5px solid white;
   cursor: not-allowed;
 }
 
-#next-btn{
+#start-btn{
   float: right;
   font-size: x-large;
   border-radius: 10px;
