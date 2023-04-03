@@ -7,32 +7,46 @@ This project consist of a small set of coding question with selectable answer. E
 After game is over it will prompt to save your score by typing your first name and last name initials.  
 After submit. After submission, you will be prompted to a different page where you can see your score.
 
-### **Code Learning Points**
+## **Code Learning Points**
 
 - * One of the main porpuses of this project was to built an Timer clock. 
 
 ### HTML
 
-- * First Step: Create a tag holder to place the Timing event [W3time](https://www.w3schools.com/js/js_timing.asp)
+- * First Learning Point: Create a tag holder to place the Timing event [W3time](https://www.w3schools.com/js/js_timing.asp)
 
 ```html
  <div id="currentTime"></div>
   ```
 
 ### CSS
-- * Second Step: By invoking the #IdCurrentTime it allowed me to target and style position where I wanted the time clock to be display at. [W3Float](https://www.w3schools.com/css/css_float.asp)
-
+- * Second  Learning: By invoking the #IdCurrentTime it allowed me to target and style position where I wanted the time clock to be display at. [W3Float](https://www.w3schools.com/css/css_float.asp)
 
 ```css
 #currentTtime {
   float: right;
 }
 ```
-- **After**
+### JavaScript
 
-  * Added 
+  * Third Learning Point: I had to created a funtion that would set a timer event when clicked [TutorialRepublic](https://www.tutorialrepublic.com/javascript-tutorial/javascript-timers.php)
 
-```css
+```Js
+timer.addEventListener("click", function () {
+    if (holdInterval === 0) {
+        holdInterval = setInterval(function () {
+            secondsLeft--;
+            currentTime.textContent = "Time: " + secondsLeft;
+
+            if (secondsLeft <= 0) {
+                clearInterval(holdInterval);
+                allDone();
+                currentTime.textContent = "Time's up!";
+            }
+        }, 1000);
+    }
+    render(questionIndex);
+});
 
 ```
 
@@ -79,7 +93,8 @@ After submit. After submission, you will be prompted to a different page where y
 * **Kenneth Cruz** 
 
 
-- [Link to Portfolio Site]()
+- [Link to Code Quiz Site](https://github.com/Cruzkenneth504.io/code-quiz)
+- [Link to Github Repo](https://github.com/Cruzkenneth504/code-quiz)
 - [Link to Github](https://github.com/cruzkenneth504)
 - [Link to LinkedIn](linkedin.com/in/cruzkenneth504)
 
