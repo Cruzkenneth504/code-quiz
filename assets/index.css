@@ -60,6 +60,7 @@ body{
   background: rgb(86,86,86);
   background: linear-gradient(90deg, rgba(86,86,86,0.9528405112044818) 0%, 
   rgba(40,40,39,1) 35%, rgba(35,35,35,0.7175463935574229) 100%);
+  margin-left: 30px;
 }
 
 
