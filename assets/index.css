@@ -45,8 +45,9 @@ body{
   margin: 20px;
 }
 
-#currentTtime {
+#currentTime {
   float: right;
+
 }
 
 #goBack {
