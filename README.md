@@ -87,7 +87,9 @@ timer.addEventListener("click", function () {
 
 ## **Visual**
 
-[![Image](./assets/imgs/screen1.png)](https://github.com/Cruzkenneth504.io/code-quiz)
+* Click the image below 
+
+[![Image](./assets/imgs/screen1.png)](https://cruzkenneth504.github.io/code-quiz/)
 
 
 ## **Author**
@@ -96,7 +98,7 @@ timer.addEventListener("click", function () {
 
 
 - [Link to Code Quiz Site](https://github.com/Cruzkenneth504.io/code-quiz)
-- [Link to Github Repo](https://github.com/Cruzkenneth504/code-quiz)
+- [Link to Github Repo](https://cruzkenneth504.github/code-quiz/)
 - [Link to Github](https://github.com/cruzkenneth504)
 - [Link to LinkedIn](linkedin.com/in/cruzkenneth504)
 
