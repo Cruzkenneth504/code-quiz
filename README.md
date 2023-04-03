@@ -2,10 +2,10 @@
 
 ## **Description**
 
-* This project aimed to adapt Html,Css and Js to built a timer quiz. 
+* This project aimed to use Html , Css and Java Script to built a timer quiz. 
 This project consist of a small set of coding question with selectable answer. Every question you get wrong you will get penalized by deducting 10 points from timer. 
 After game is over it will prompt to save your score by typing your first name and last name initials.  
-After submit. After submission, you will be prompted to a different page where you can see your score.
+After submission, you will be prompted to a different page where you can see your score.
 
 ## **Code Learning Points**
 
@@ -29,7 +29,7 @@ After submit. After submission, you will be prompted to a different page where y
 ```
 ### JavaScript
 
-  * Third Learning Point: I had to created a funtion that would set a timer event when clicked [TutorialRepublic](https://www.tutorialrepublic.com/javascript-tutorial/javascript-timers.php)
+  * Third Learning Point: I had to created a funtion that would trigger timer event when clicked [TutorialRepublic](https://www.tutorialrepublic.com/javascript-tutorial/javascript-timers.php)
 
 ```Js
 timer.addEventListener("click", function () {
@@ -57,7 +57,7 @@ timer.addEventListener("click", function () {
 | HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)|  
 | CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
 | Git | [https://git-scm.com/](https://git-scm.com/)     |    
-
+| Js  | [https://developer.mozilla.org/en-US/docs/Web/JavaScript]  | 
 
 ## **Prerequisites**
 
@@ -83,10 +83,12 @@ timer.addEventListener("click", function () {
 * [HTML W3](https://www.w3schools.com/html/default.asp)   
 * [CSS Dev](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [CSS W3](https://www.w3schools.com/css/default.asp)
+* [Flexiple](https://flexiple.com/javascript/javascript-clock/)
 
 ## **Visual**
 
-![Image](./assets/imgs/screen1.png)
+[![Image](./assets/imgs/screen1.png)](https://github.com/Cruzkenneth504.io/code-quiz)
+
 
 ## **Author**
 
@@ -113,6 +115,7 @@ This project is licensed under the MIT License
 * [MozzilaBoxShadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
 ## **Test 1**
+<!---Unable to provide video testing due to computer version not meeting the github large files standards --->
 ![Site test test 1](./assets/imgs/screen3.png)
- ## **Test 2**
+## **Test 2**
 ![Site test test 2](./assets/imgs/screen4.png)
