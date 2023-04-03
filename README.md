@@ -2,24 +2,21 @@
 
 ## **Description**
 
-* 
+* This project aimed to adapt Html,Css and Js to built a timer quiz. 
+This project consist of a small set of coding question with selectable answer. Every question you get wrong you will get penalized by deducting 10 points from timer. 
+After game is over it will prompt to save your score by typing your first name and last name initials.  
+After submit. After submission, you will be prompted to a different page where you can see your score.
 
 ### **Code Refactor**
 
 ### HTML
 
-- **Before**
+- * 
 
 ```html
-<
+ <div id="currentTime"></div>
   ```
-- **After**
 
-  * Added 
-
-```html
-
- ```
 
 ### CSS
 
@@ -61,7 +58,7 @@
 
 **Click the link below:** 
 
-[Link to Website]()
+[Link to Website](https://cruzkenneth504.github.io/code-quiz/)
 
 ## **Built With**
 
@@ -72,7 +69,7 @@
 
 ## **Visual**
 
-
+![Image](./assets/imgs/screen1.png)
 
 ## **Author**
 
@@ -98,6 +95,6 @@ This project is licensed under the MIT License
 * [MozzilaBoxShadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 
 ## **Test 1**
-![Site test test 1]()
+![Site test test 1](./assets/imgs/screen3.png)
  ## **Test 2**
-![Site test test 2]()
+![Site test test 2](./assets/imgs/screen4.png)

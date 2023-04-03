@@ -1,45 +1,49 @@
 //Question Chart//
 var questions = [
-    {
-        title: "Which character is used to indicate an end tag",
-        choices: ["<", "*", "$", "</>"],
-        answer: "</>"
-    },
-    {
-        title: "How can you make a numbered list?",
-        choices: ["<li>", "<td>", "<ol>", "<ul>"],
-        answer: "<ol>"
-    },
-    {
-        title: "Which is the correct CSS syntax?",
-        choices: ["{body:color,black}", "body:color(black", "body {color:black}", "body=color:black"],
-        answer: "body {color:black}"
-    },
-    {
-        title: "Which property is used to change the background color",
-        choices: ["bg", "background-color", "color", "block color"],
-        answer: "background-color",
-    },
-    {
-        title: "Which CSS property is used to change the text color of an element?",
-        choices: ["letter color ", "font-color ", "text-color ", "color "],
-        answer: "color",
-    },
+{
+    title: "Which character is used to indicate an end tag",
+    choices: ["<", "*", "$", "</>"],
+    answer: "</>"
+},
 
-    {
-        title: "Inside which HTML element do we put the JavaScript?",
-        choices: ["<html>", "<js>", "<JavaScript>", "<script>"],
-        answer: "<script>",
-        
-    },
+{
+    title: "How can you make a numbered list?",
+    choices: ["<li>", "<td>", "<ol>", "<ul>"],
+    answer: "<ol>"
+},
 
-    {
-        title:"How do you write 'Hello World' in an alert box?",
-        choices:[" alert('Hello World')", "alertWindow ('Hello World')", "msgAlert('Hello World')", "aletPop('Hello World')"],
-        answer:"alert('Hello World')",
-    }
+{
+    title: "Which is the correct CSS syntax?",
+    choices: ["{body:color,black}", "body:color(black", "body {color:black}", "body=color:black"],
+    answer: "body {color:black}"
+},
 
-];
+{
+    title: "Which property is used to change the background color",
+    choices: ["bg", "background-color", "color", "block color"],
+    answer: "background-color",
+},
+
+{
+    title: "Which CSS property is used to change the text color of an element?",
+    choices: ["letter color ", "font-color ", "text-color ", "color "],
+    answer: "color",
+},
+
+{
+    title: "Inside which HTML element do we put the JavaScript?",
+    choices: ["<html>", "<js>", "<JavaScript>", "<script>"],
+    answer: "<script>",
+    
+},
+
+{
+    title:"How do you write 'Hello World' in an alert box?",
+    choices:[" alert('Hello World')", "alertWindow ('Hello World')", "msgAlert('Hello World')", "aletPop('Hello World')"],
+    answer:"alert('Hello World')",
+}
+
+]
 
 var score = 0;
 var questionIndex = 0;
