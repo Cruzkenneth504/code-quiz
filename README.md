@@ -7,23 +7,26 @@ This project consist of a small set of coding question with selectable answer. E
 After game is over it will prompt to save your score by typing your first name and last name initials.  
 After submit. After submission, you will be prompted to a different page where you can see your score.
 
-### **Code Refactor**
+### **Code Learning Points**
+
+- * One of the main porpuses of this project was to built an Timer clock. 
 
 ### HTML
 
-- * 
+- * First Step: Create a tag holder to place the Timing event [W3time](https://www.w3schools.com/js/js_timing.asp)
 
 ```html
  <div id="currentTime"></div>
   ```
 
-
 ### CSS
+- * Second Step: By invoking the #IdCurrentTime it allowed me to target and style position where I wanted the time clock to be display at. [W3Float](https://www.w3schools.com/css/css_float.asp)
 
-- **Before**
 
 ```css
-
+#currentTtime {
+  float: right;
+}
 ```
 - **After**
 
